@@ -13,18 +13,38 @@
     <header>
         <nav>
             <ul>
-                <li><a>About</a></li>
-                <li><a>Menu</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="home.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="menu">
+    <section class="contact-section">
+        <h1 style="text-align: center;">Contact</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id laudantium voluptas placeat necessitatibus minus vero dolores maxime, culpa ea temporibus eaque nobis enim, ducimus vitae nostrum delectus alias iusto dolor!
+        </p>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
 
+            <label for="Name" class="fcf-label">Your name</label>
+            <div>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div>
+                <input type="email" id="Email" name="Email" required>
+            </div>
+
+            <label for="Message" class="fcf-label">Your message</label>
+            <div>
+                <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+            </div>
+
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+
+        </form>
     </section>
-    <aside class="side-image">
-
-    </aside>
 </body>
 
 </html>

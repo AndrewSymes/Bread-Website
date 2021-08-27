@@ -21,6 +21,11 @@ nav li {
     font-size: 15px;
 }
 
+nav li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 nav li:hover {
     background-color: whitesmoke;
 }
@@ -39,4 +44,52 @@ nav li:hover {
 
 .about h1 {
     letter-spacing: 3px;
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-item {
+    background-color: whitesmoke;
+    width: 400px;
+    height: max-content;
+    padding: 0 0 10px 10px;
+    margin-right: 10px;
+}
+
+button {
+    border-width: thin;
+    border-color: black;
+    padding: 5px;
+    float: right;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+
+.contact-section {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    align-content: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+    margin: 20px;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .side-image {
+        display: none;
+    }
 }
