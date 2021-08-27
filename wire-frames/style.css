@@ -25,7 +25,18 @@ nav li:hover {
     background-color: whitesmoke;
 }
 
+.center-image img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
 .about {
     margin: 0 auto;
-    width: 50%;
+    font-size: 120%;
+    width: 75%;
+}
+
+.about h1 {
+    letter-spacing: 3px;
 }
