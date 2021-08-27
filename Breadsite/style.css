@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+nav {
+    letter-spacing: 5px;
+    padding: 5px;
+    float: right;
+}
+
+nav li {
+    padding: 10px;
+    display: inline;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+nav li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: whitesmoke;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.about {
+    margin: 0 auto;
+    font-size: 120%;
+    width: 75%;
+}
+
+.about h1 {
+    letter-spacing: 3px;
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-item {
+    background-color: whitesmoke;
+    width: 400px;
+    height: max-content;
+    padding: 0 0 10px 10px;
+    margin-right: 10px;
+}
+
+button {
+    border-width: thin;
+    border-color: black;
+    padding: 5px;
+    float: right;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+
+.contact-section {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    align-content: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+    margin: 20px;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .side-image {
+        display: none;
+    }
+}
