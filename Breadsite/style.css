@@ -31,9 +31,10 @@ nav li:hover {
 }
 
 .center-image img {
+    width: 100%;
     max-width: 100%;
-    height: auto;
-    width: auto\9;
+    height: 500px;
+    object-fit: cover;
 }
 
 .about {
