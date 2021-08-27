@@ -89,6 +89,13 @@ button {
     width: 100%;
 }
 
+.side-image img {
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 @media (max-width: 900px) {
     .side-image {
         display: none;
