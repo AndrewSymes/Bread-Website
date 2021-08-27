@@ -25,30 +25,78 @@
     <section class="menu-container">
         <div class="menu">
             <div class="menu-item">
-                <h2>bread 1</h2>
+                <h2>cinnamon</h2>
                 <p>$4.50</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
-                <button class="order-button">order</button>
+                <button class="order-button" id="cinnamon">order</button>
             </div>
             <div class="menu-item">
-                <h2>bread 2</h2>
+                <h2>raisin</h2>
                 <p>$4.50</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
-                <button class="order-button">order</button>
+                <button class="order-button" id="raisin">order</button>
             </div>
             <div class="menu-item">
-                <h2>bread 3</h2>
+                <h2>wheat</h2>
                 <p>$4.50</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
-                <button class="order-button">order</button>
+                <button class="order-button" id="wheat">order</button>
             </div>
+        </div>
+        <div id="order-popup" class="invisable">
+            <h1 style="text-align: center;">Order Details</h1>
+            <form id="orderForm" method="post" action="https://formspree.io/f/xleaarow">
+                <div class="inline_input">
+                    <label>
+                        Item:
+                        <select id="product_selection" class="w3-input w3-padding-16">
+                            <option value="cinnamon" selected="">Cinnamon</option>
+                            <option value="wheat" selected="">Classic Wheat</option>
+                            <option value="raisin" selected="">Raisin</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        Quantity:
+                        <input type="number" name="quantity" placeholder="0" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        Name:
+                        <input type="text" name="name" placeholder="someone" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Address:
+                        <input type="text" name="home_address" placeholder="somewhere">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Payment:
+                        <select id="payment_method" class="w3-input w3-padding-16">
+                            <option value="select" selected="selected">Payment Method</option>
+                            <option value="cash" >Cash</option>
+                            <option value="online" >Online</option>
+                        </select>
+                    </label>
+                </div>
+                <button id="cancel-order-button" type="button">Cancel</button>
+                <button type="submit">Send</button>
+
+            </form>
         </div>
 
         <aside class="side-image">
             <img src="https://i.imgur.com/4e0LQhz.jpg">
         </aside>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
