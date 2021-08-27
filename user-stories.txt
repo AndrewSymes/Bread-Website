@@ -1,0 +1,19 @@
+AS A Customer
+I WANT TO get the ingredients of available bread sorts
+SO THAT I can determine which one is healthy
+
+AS A Customer
+I WANT TO order some bread
+SO THAT I can serve healthy bread at home
+
+AS A Customer
+I WANT TO send a message to the business owner
+SO THAT I can learn more about the baking process
+
+AS A Customer
+I WANT TO access/browse the menu
+SO THAT I can determine which bread to order
+
+AS A business owner
+I WANT a simple / easy to use website
+SO THAT I can automate my business
