@@ -218,8 +218,7 @@ button {
     }
     .menu-item {
         width: 350px;
-        margin-left: 30px;
-        margin: 10px 30px;
+        margin: 10px 0 10px 0;
     }
     nav {
         width: 100%;
@@ -229,11 +228,10 @@ button {
     }
     nav li {
         letter-spacing: 1px !important;
-        padding: 10px;
-        display: inline;
-        margin-right: 10px;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
         font-size: 15px;
-        letter-spacing: 5px;
     }
     .side-image {
         display: none;
@@ -247,6 +245,9 @@ button {
 }
 
 @media (max-width: 450px) {
+    .menu-item {
+        width: 250px;
+    }
     header {
         height: 70px;
     }
