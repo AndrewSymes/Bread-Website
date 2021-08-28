@@ -245,3 +245,12 @@ button {
         width: 75%;
     }
 }
+
+@media (max-width: 450px) {
+    header {
+        height: 70px;
+    }
+    .left-content {
+        display: none;
+    }
+}
