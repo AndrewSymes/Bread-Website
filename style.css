@@ -210,6 +210,9 @@ button {
     .left-content a {
         display: none;
     }
+    nav li {
+        letter-spacing: 3px !important;
+    }
     .menu-container {
         justify-content: center;
         background-repeat: no-repeat;
