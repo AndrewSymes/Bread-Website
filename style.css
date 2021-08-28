@@ -21,6 +21,11 @@ header {
     font-size: 150%;
 }
 
+.left-content a {
+    color: black !important;
+    display: inline;
+}
+
 nav {
     padding: 5px;
     float: right;
