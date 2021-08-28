@@ -27,12 +27,13 @@ header {
 }
 
 nav {
-    padding: 5px;
+    display: inline;
+    padding: 10px 0;
     float: right;
 }
 
 nav li {
-    padding: 10px;
+    padding: 5px;
     display: inline;
     margin-right: 10px;
     font-size: 15px;
@@ -190,7 +191,6 @@ button {
     margin-top: 50px;
     margin-bottom: 300px;
     width: 50%;
-    align-content: center;
 }
 
 .contact-section input,
@@ -207,8 +207,8 @@ button {
 }
 
 @media (max-width: 950px) {
-    header {
-        height: 140px;
+    .left-content a {
+        display: none;
     }
     .menu-container {
         justify-content: center;
@@ -219,19 +219,6 @@ button {
     .menu-item {
         width: 350px;
         margin: 10px 0 10px 0;
-    }
-    nav {
-        width: 100%;
-        float: left;
-        display: flex;
-        justify-content: space-around;
-    }
-    nav li {
-        letter-spacing: 1px !important;
-        margin: 0;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 15px;
     }
     .side-image {
         display: none;
@@ -248,10 +235,27 @@ button {
     .menu-item {
         width: 250px;
     }
-    header {
-        height: 70px;
+    nav li {
+        letter-spacing: 1px !important;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .left-content img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    .contact-section input,
+    .contact-section textarea {
+        margin: 0 auto;
     }
     .left-content {
         display: none;
+    }
+    .contact-section {
+        width: 100%;
     }
 }
