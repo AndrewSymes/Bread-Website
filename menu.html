@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Menu</title>
-    <link href="https://i.imgur.com/D63YXct.png" rel="icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale=1.0, user-scalable=no>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-</head>
+    <head>
+        <title>Menu</title>
+        <link href="https://i.imgur.com/D63YXct.png" rel="icon">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale=1.0, user-scalable=no>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <header>
-        <section class="left-content">
-            <img src="images/icon.png" alt="bread icon" width="50" height="50">
-            <a class="nav-link active" aria-current="page" href="index.html">Fresh Bread Made to Order</a>
-        </section>
-        <nav>
-            <ul class="nav">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="menu.html">Menu</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1 class="text-centered">Menu</h1>
-    <section class="menu-container">
-        <div class="menu">
-            <div class="menu-item">
-                <h2>cinnamon</h2>
-                <p>$4.50</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
-                <button class="order-button" id="cinnamon">order</button>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="images/icon.png" width="40px" height="40px" alt="bread-icon"></a>
+                <a class="logo-words" href="index.html">Fresh Bread Made to Order</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav nav-left mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <h1 class="text-centered">Menu</h1>
+        <section class="menu-container">
+            <div class="menu">
+                <div class="menu-item">
+                    <h2>cinnamon</h2>
+                    <p>$4.50</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
+                    <button class="order-button" id="cinnamon">order</button>
+                </div>
+                <div class="menu-item">
+                    <h2>raisin</h2>
+                    <p>$4.50</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
+                    <button class="order-button" id="raisin">order</button>
+                </div>
+                <div class="menu-item">
+                    <h2>wheat</h2>
+                    <p>$4.50</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
+                    <button class="order-button" id="wheat">order</button>
+                </div>
             </div>
-            <div class="menu-item">
-                <h2>raisin</h2>
-                <p>$4.50</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
-                <button class="order-button" id="raisin">order</button>
-            </div>
-            <div class="menu-item">
-                <h2>wheat</h2>
-                <p>$4.50</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, doloremque maxime? Facere, fuga non! Ex voluptatem ad alias consequuntur corporis dicta in temporibus, ea ullam, odit pariatur vitae ipsa doloribus.</p>
-                <button class="order-button" id="wheat">order</button>
-            </div>
-        </div>
-        <div id="order-popup" class="invisable">
-            <h1 class="text-centered">Order Details</h1>
-            <form id="orderForm" method="post" action="https://formspree.io/f/xleaarow">
-                <div class="inline_input">
-                    <label>
+            <div id="order-popup" class="invisable">
+                <h1 class="text-centered">Order Details</h1>
+                <form id="orderForm" method="post" action="https://formspree.io/f/xleaarow">
+                    <div class="inline_input">
+                        <label>
                         Item:
                         <select id="product_selection" class="w3-input w3-padding-16">
                             <option value="cinnamon" selected="">Cinnamon</option>
@@ -60,29 +69,29 @@
                             <option value="raisin" selected="">Raisin</option>
                         </select>
                     </label>
-                </div>
+                    </div>
 
-                <div>
-                    <label>
+                    <div>
+                        <label>
                         Quantity:
                         <input type="number" name="quantity" placeholder="0" min="1" required>
                     </label>
-                </div>
+                    </div>
 
-                <div>
-                    <label>
+                    <div>
+                        <label>
                         Name:
                         <input type="text" name="name" placeholder="someone" required>
                     </label>
-                </div>
-                <div>
-                    <label>
+                    </div>
+                    <div>
+                        <label>
                         Address:
                         <input type="text" name="home_address" placeholder="somewhere">
                     </label>
-                </div>
-                <div>
-                    <label>
+                    </div>
+                    <div>
+                        <label>
                         Payment:
                         <select id="payment_method" class="w3-input w3-padding-16">
                             <option value="select" selected="selected">Payment Method</option>
@@ -90,34 +99,34 @@
                             <option value="online" >Online</option>
                         </select>
                     </label>
-                </div>
-                <button id="cancel-order-button" type="button">Cancel</button>
-                <button type="submit">Send</button>
+                    </div>
+                    <button id="cancel-order-button" type="button">Cancel</button>
+                    <button type="submit">Send</button>
 
-            </form>
-        </div>
+                </form>
+            </div>
 
-        <aside class="side-image">
-            <img src="images/side-image.jpg" alt="bread on a cooling rack">
-        </aside>
-    </section>
-    <footer class="footer-basic">
-        <div class="social">
-            <a href="#"><i class="icon ion-social-instagram"></i></a>
-            <a href="#"><i class="icon ion-social-snapchat"></i></a>
-            <a href="#"><i class="icon ion-social-twitter"></i></a>
-            <a href="#"><i class="icon ion-social-facebook"></i></a>
-        </div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.html">Home</a></li>
-            <li class="list-inline-item"><a href="menu.html">Menu</a></li>
-            <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-            <li class="list-inline-item"><a href="#">Terms</a></li>
-            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="copyright">Andrew Symes © 2021</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+            <aside class="side-image">
+                <img src="images/side-image.jpg" alt="bread on a cooling rack">
+            </aside>
+        </section>
+        <footer class="footer-basic">
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="menu.html">Menu</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Andrew Symes © 2021</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 
 </html>
