@@ -1,12 +1,8 @@
-Andrew Symes
+**Hosting Link https://andrewsymes.github.io/Bread-Website/
 
-This is a website for a bread company. 
+This is a website I created for a bread company. 
 
 Users can use it to browse the menu and order bread.
 
-The user stories and wire-frames are included in the repo.
-
 This project is comprised of html, css and javascript.
 It uses bootstrap for the nav links and formspree for the form collecting.
-
-As a future impovement, I might add an online payment system.
